@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rendi.tutorial.registrasi.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+
+    <Button
+        android:id="@+id/btn_makan"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/makan"
+        android:text="Rumah Makan" />
+
+    <!--  Tombol Pasar/Mall -->
+    <Button
+        android:id="@+id/btn_pasar"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/pasar"
+        android:text="Pasar  mall" />
+
+    <!--  Tombol Hotel -->
+    <Button
+        android:id="@+id/btn_hotel"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/hotel"
+        android:text="Hotel" />
+
+    <!--  Tombol Pendidikan -->
+    <Button
+        android:id="@+id/btn_pendidikan"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/sekolah"
+        android:text="Pendidikan" />
+
+    <!--  Tombol Wisata -->
+    <Button
+        android:id="@+id/btn_wisata"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/ikon_wisata"
+        android:text="Wisata" />
+
+    <!--  Tombol Rumah Sakit -->
+    <Button
+        android:id="@+id/btn_r_sakit"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/rumah_sakit"
+        android:text="Rumah Sakit" />
+
+</com.rendi.tutorial.registrasi.DashboardLayout>

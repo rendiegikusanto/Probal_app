@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tentang"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.rendi.tutorial.registrasi.Tentang">
+
+
+    <TextView
+        android:text="Kota Bandar Lampung adalah sebuah kota di Indonesia sekaligus ibu kota dan kota terbesar di provinsi Lampung. Bandar Lampung juga merupakan kota terbesar dan terpadat ketiga di Pulau Sumatera setelah Medan dan Palembang menurut jumlah penduduk, serta termasuk salah satu kota besar di Indonesia dan Kota terpadat di luar pulau Jawa."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="49dp"
+        android:id="@+id/textView8" />
+
+    <TextView
+        android:text="Secara geografis, kota ini menjadi pintu gerbang utama pulau Sumatera, tepatnya kurang lebih 165 km sebelah barat laut Jakarta, memiliki andil penting dalam jalur transportasi darat dan aktivitas pendistribusian logistik dari Jawa menuju Sumatera maupun sebaliknya."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginTop="28dp"
+        android:id="@+id/textView9" />
+
+    <TextView
+        android:text="Kota Bandar Lampung memiliki luas wilayah daratan 169,21 km² yang terbagi ke dalam 20 Kecamatan dan 126 Kelurahan dengan populasi penduduk 1.251.642[5] jiwa (berdasarkan data tahun 2014), kepadatan penduduk sekitar 8.316 jiwa/km² dan diproyeksikan pertumbuhan penduduk mencapai 2,4 juta jiwa pada tahun 2030. Saat ini kota Bandar Lampung merupakan pusat jasa, perdagangan, dan perekonomian di provinsi Lampung."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView9"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_marginTop="33dp"
+        android:id="@+id/textView10" />
+
+    <TextView
+        android:text="Profil Kota Bandar Lampung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView11"
+        android:textStyle="normal|bold"
+        android:textSize="18sp" />
+</RelativeLayout>
